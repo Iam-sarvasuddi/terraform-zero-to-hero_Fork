@@ -6,4 +6,5 @@ resource "aws_instance" "Saikumar_test" {
     ami           = "ami-0069eac59d05ae12b"  # Specify an appropriate AMI ID
     instance_type = "t3.micro"
     subnet_id = "	subnet-093899861eddc24e6"
+    key value = "sai_keypair"  #It helps us to login to the VM ,create this if you didnt have it#
 }
